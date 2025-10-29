@@ -1,1 +1,5 @@
 working of full stack repo
+
+It contains a html file for sturcture 
+It has style sheet for colour and styles 
+It has javascript file for operation and making the page interactive
