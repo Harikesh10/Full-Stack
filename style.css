@@ -1,5 +1,4 @@
-*{box-sizing:border-box}
-html,body{
+body{
     height:100%;
     padding: 0;
     margin:0;
@@ -136,4 +135,5 @@ tbody td{
 
 /* accessible focus */
 select:focus,input:focus,button:focus{outline:3px solid rgba(79,70,229,0.12);outline-offset:2px}
+
 
