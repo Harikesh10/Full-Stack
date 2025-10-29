@@ -1,0 +1,144 @@
+:root{
+	 background-color: lightblue;
+	 
+	 font-family: "Jost", sans-serif;
+}
+
+*{box-sizing:border-box}
+html,body{
+    height:100%;
+    padding: 0;
+    margin:0;
+    background:linear-gradient(180deg,#eef2ff 0%,100%);
+    color:black
+}
+.app{max-width:1100px;
+    margin:28px auto;
+    padding:18px
+}
+.topbar{display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 16px;
+    border-radius:1px;
+    border: 2px solid black;
+    
+}
+.brand{font-weight:700;
+    font-size:1.15rem;
+    text-align: center;
+    margin-left: 50px;
+
+    flex: 1;
+}
+.date-controls{display:flex;
+    gap:8px;
+    align-items:center
+}
+.date-controls label{
+    font-size:0.8rem;
+    
+}
+.date-controls select{padding:6px 8px;
+    border-radius:15px;
+    border:1px solid black;
+    background:white;
+}
+
+.container{display:grid;
+    grid-template-columns:1fr;
+    gap:18px;margin-top:18px
+}
+.entry-card,.list-card{background:white;
+    padding:16px;
+    border-radius:20px;
+     
+}
+.entry-card h2,.list-card h2{
+    margin:0 0 12px 0
+}
+.row{display:flex;
+    flex-direction:column;
+    margin-bottom:10px
+}
+.row label{font-size:0.85rem;
+    margin-bottom:6px;
+  
+}
+.row input{padding:10px;
+    border-radius:15px;
+    border:1px solid white;
+    font-size:0.95rem}
+.row.actions{display:flex;
+    gap:8px;
+    align-items:center
+}
+.btn{padding:8px 12px;
+    border-radius:15px;
+    border:1px solid transparent;
+    background:#fff;cursor:pointer
+}
+.btn.primary{background:green;
+    color:#fff;
+    border-color:transparent;
+     
+}
+
+.list-header{display:flex;
+    justify-content:space-between;
+    align-items:center;margin-bottom:12px
+}
+.totals{display:flex;
+    gap:16px;
+    align-items:center;
+
+      font-size:0.95rem
+}
+/* To allow the table to add more responses*/
+.table-wrap{
+    overflow:auto
+}
+table{
+    width:100%;
+    border-collapse:collapse
+}
+thead th{text-align:left;
+    padding:10px 12px;
+    border-bottom:1px solid #eef2f8;
+ 
+}
+tbody tr{
+    transition:transform .12s ease,opacity .12s ease
+}
+tbody td{
+    padding:12px;
+    border-bottom:1px solid #f4f6fb
+}
+.amount-col{
+    text-align:right
+}
+.actions button{
+    margin-right:6px
+
+}
+.footer{text-align:center;
+    
+    margin-top:14px; 
+    font-size:0.85rem
+}
+
+/* Done to make the web responsive */
+/* mobile */
+@media (max-width:900px){
+	.container{grid-template-columns:1fr;}
+	.date-controls{gap:6px}
+}
+
+/* small helpers */
+
+.fade-in{animation:fadeIn .22s ease both}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* accessible focus */
+select:focus,input:focus,button:focus{outline:3px solid rgba(79,70,229,0.12);outline-offset:2px}
+
