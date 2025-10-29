@@ -1,13 +1,17 @@
 # Full-Stack
 JDFS Placement exam
 
-The images
+Basic html , css and medium level js
 
-<img width="1882" height="978" alt="image" src="https://github.com/user-attachments/assets/f678b384-b337-4161-b84f-812287836f75" />
-<img width="1907" height="1026" alt="image" src="https://github.com/user-attachments/assets/6b1193de-86e7-4b87-a928-0cae8d62c1b6" />
+The images
+<img width="1896" height="969" alt="image" src="https://github.com/user-attachments/assets/db2bb1b6-d5f2-4fa2-9043-ba89bc345bc8" />
+
+<img width="1910" height="985" alt="image" src="https://github.com/user-attachments/assets/cfb10580-6cc1-44f0-9fb4-7e121c955c1e" />
+
+
 
 The responsive page
+<img width="606" height="981" alt="image" src="https://github.com/user-attachments/assets/ab3ffd18-7e6a-442a-b0d5-d46eeb1def60" />
 
-<img width="657" height="979" alt="image" src="https://github.com/user-attachments/assets/c8858d5c-9049-4780-a0d4-779cb7e6af6e" />
 
 
